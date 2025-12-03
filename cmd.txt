@@ -1,0 +1,32 @@
+python  -m venv .venv
+.\.venv\Scripts\activate
+
+http://localhost:6001/a2a/tasks/send
+
+npx @modelcontextprotocol/inspector
+http://localhost:7000/docs  using FASTAPI Swagger UI
+
+uv sync --native-tls
+
+Agent Auto-Failover + Fallback for your A2A orchestrator.
+
+AGUI bring to us 
+
+In your exact code, AgUI provides:
+✔ An auto-discoverable agent card
+✔ Input definition (crypto symbol)
+✔ Output definition (crypto price)
+✔ Endpoint mapping
+✔ UI-friendly metadata
+✔ Multi-protocol capability
+✔ Compatibility with tools that can auto-generate UI from the card
+
+Your orchestrator becomes:
+
+self-describing
+
+UI-ready
+
+machine-readable
+
+integratable into any agent framework
